@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(89, 89, 222);
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    padding: 0px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header img{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 60px;
+    position: relative;
+    bottom: -80px;
+}
+nav a{
+    background-color: rgb(89, 89, 222);
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+nav a:hover{
+    background-color: rgb(43, 43, 223);
+}
+
+footer{
+    background-color: white;
+    display: block;
+    position: relative;
+    bottom: -350px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+.contacto{
+    text-align: left;
+    flex-direction: column;
+}
+
+.redes, .contacto, .ubicacion{
+    display: inline-block;
+    width: 29%; /* Ajusta el ancho según sea necesario */
+    vertical-align: top; /* Alinea en la parte superior */
+    margin-right: 2%; /* Espacio entre los divs */
+    padding: 10px;
+}
+
+article{
+    display: inline-block;
+    width: 350px;
+    height: 35%;
+    margin-top: 50px;
+    margin-left: 100px;
+    }
+article:hover{
+    border: 3px solid white;
+}    
+/* }                             ??????????????????????????????? */
+
+article img{
+    size: contain;
+}
+section{
+    background-color: rgb(75, 74, 74);
+    width: 350px; 
+}
+section p{
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    font-size: larger;
+}
+section button{
+    background-color: rgb(75, 74, 74);
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+section button:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    margin-top: 15px;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 15px;
+    margin-top: 50px;
+}
+
+h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.texto-con-fondo{
+    background-image: url(://media.istockphoto.com/id/858917054/es/foto/amigos-feliz-viaje-expedici%C3%B3n-concepto.jpg?s=612x612&w=0&k=20&c=uJtvCXOlyeq8BvkG09h8GfQxnJy-dOdHPk95jEbnans);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 15px;
+    text-align: left;
+
+}
