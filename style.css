@@ -52,6 +52,14 @@ footer div{
 
 footer p{
     font-weight: bold;
+    margin-left: 5px;
+}
+
+footer a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
 }
 
 .contacto{
@@ -73,6 +81,8 @@ article{
     height: 35%;
     margin-top: 50px;
     margin-left: 100px;
+    border: transparent solid 3px;
+
     }
 article:hover{
     border: 3px solid white;
@@ -88,10 +98,12 @@ section{
 }
 section p{
     margin-top: 0px;
+    margin-bottom: 0px;
     color: white;
     font-weight: bold;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 15px;
     font-size: larger;
 }
 section button{
@@ -108,6 +120,7 @@ section button{
 section button:hover{
     background-color: white;
     color: black;
+    
 }
 
 h1{
@@ -121,8 +134,8 @@ h2{
     text-align: center;
     font-size: 35px;
     color: white;
-    margin-top: 15px;
-    margin-top: 50px;
+    /* margin-top: 5px; */
+    margin-top: 20px;
 }
 
 h3{
@@ -135,12 +148,33 @@ h3{
 }
 
 .texto-con-fondo{
-    background-image: url(://media.istockphoto.com/id/858917054/es/foto/amigos-feliz-viaje-expedici%C3%B3n-concepto.jpg?s=612x612&w=0&k=20&c=uJtvCXOlyeq8BvkG09h8GfQxnJy-dOdHPk95jEbnans);
+    background-image: url(https://media.traveler.es/photos/62262e1ef294efab528104d7/16:9/w_2560%2Cc_limit/tron-le-JsuBKjHGDMM-unsplash%2520jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
     padding: 15px;
+    padding-bottom: 50px;
     text-align: left;
+    height: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
+}
+
+.texto-nosotros{
+    color: white;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+.caracteristica1, .caracteristica2, .caracteristica3{
+    display: inline-block;
+    width: 25%; /* Ajusta el ancho según sea necesario */
+    vertical-align: top; /* Alinea en la parte superior */
+    margin-right: 2%; /* Espacio entre los divs */
+    padding: 10px;
 }
