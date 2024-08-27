@@ -40,7 +40,7 @@ footer{
     background-color: white;
     display: block;
     position: relative;
-    bottom: -350px;
+    bottom: -350px;;
 }
 
 footer div{
@@ -69,10 +69,11 @@ footer a{
 
 .redes, .contacto, .ubicacion{
     display: inline-block;
-    width: 29%; /* Ajusta el ancho según sea necesario */
-    vertical-align: top; /* Alinea en la parte superior */
-    margin-right: 2%; /* Espacio entre los divs */
+    width: 20%; 
+    vertical-align: top; 
+    margin-right: 110px; 
     padding: 10px;
+    margin-left: 65px;
 }
 
 article{
@@ -87,7 +88,7 @@ article{
 article:hover{
     border: 3px solid white;
 }    
-/* }                             ??????????????????????????????? */
+
 
 article img{
     size: contain;
@@ -120,6 +121,7 @@ section button{
 section button:hover{
     background-color: white;
     color: black;
+    cursor: pointer;
     
 }
 
@@ -134,7 +136,6 @@ h2{
     text-align: center;
     font-size: 35px;
     color: white;
-    /* margin-top: 5px; */
     margin-top: 20px;
 }
 
@@ -173,8 +174,12 @@ h3{
 
 .caracteristica1, .caracteristica2, .caracteristica3{
     display: inline-block;
-    width: 25%; /* Ajusta el ancho según sea necesario */
-    vertical-align: top; /* Alinea en la parte superior */
-    margin-right: 2%; /* Espacio entre los divs */
+    width: 25%; 
+    vertical-align: top; 
+    margin-right: 2%; 
     padding: 10px;
+}
+
+h4{
+    margin-top: 70px;
 }
